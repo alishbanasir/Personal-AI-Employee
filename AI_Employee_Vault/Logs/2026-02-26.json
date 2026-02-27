@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "2026-02-26T02:01:53.780026",
+    "action_type": "email_received",
+    "actor": "gmail_watcher",
+    "source": "Instagram <posts-recap@mail.instagram.com>",
+    "subject": "alishbanasir69, see what's been happening on Instagram",
+    "message_id": "19c968c3d329e4c4",
+    "reason": "all unread (no filters configured)",
+    "result_file": "EMAIL_20260226_020153_alishbanasir69__see_what_s_been_happening_on_Insta.md",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-02-26T02:39:18.574403",
+    "action_type": "email_received",
+    "actor": "gmail_watcher",
+    "source": "LinkedIn <linkedin@em.linkedin.com>",
+    "subject": "4 job search filters that give you an edge.",
+    "message_id": "19c96babb6be3643",
+    "reason": "all unread (no filters configured)",
+    "result_file": "EMAIL_20260226_023918_4_job_search_filters_that_give_you_an_edge_.md",
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-02-26T16:27:27.918562",
+    "actor": "mcp_server",
+    "action_type": "draft_email",
+    "file": "EMAIL_20260226_162727_MCP_Server_Test.md",
+    "to": "alishbanasir54@gmail.com",
+    "subject": "MCP Server Test",
+    "cc": ""
+  },
+  {
+    "timestamp": "2026-02-26T16:58:35.604071",
+    "actor": "claude_code",
+    "action_type": "email_sent",
+    "file": "EMAIL_20260226_162727_MCP_Server_Test.md",
+    "to": "alishbanasir54@gmail.com",
+    "subject": "MCP Server Test",
+    "message_id": "19c99d0a83f695e3"
+  }
+]

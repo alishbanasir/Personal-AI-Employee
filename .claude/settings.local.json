@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /d/alish-hackathon-0 && python -c \"\nimport sys, os, json, shutil\nfrom pathlib import Path\n\nsys.path.insert\\(0, 'src'\\)\nos.environ.setdefault\\('VAULT_PATH', r'D:\\\\alish-hackathon-0\\\\AI_Employee_Vault'\\)\n\n# Replicate VAULT setup from mcp_server.py\n_ROOT = Path\\('src'\\).parent.resolve\\(\\)\n_ENV_FILE = _ROOT / '.env'\nif _ENV_FILE.exists\\(\\):\n    for _line in _ENV_FILE.read_text\\(encoding='utf-8'\\).splitlines\\(\\):\n        _line = _line.strip\\(\\)\n        if _line and not _line.startswith\\('#'\\) and '=' in _line:\n            _k, _, _v = _line.partition\\('='\\)\n            os.environ.setdefault\\(_k.strip\\(\\), _v.strip\\(\\)\\)\n\nVAULT = Path\\(os.getenv\\('VAULT_PATH', str\\(_ROOT / 'AI_Employee_Vault'\\)\\)\\).resolve\\(\\)\n\nfilename = 'EMAIL_20260226_162727_MCP_Server_Test.md'\napproved_path = VAULT / 'Approved' / filename\nprint\\('Looking for:', approved_path\\)\nprint\\('Exists:', approved_path.exists\\(\\)\\)\n\" 2>&1)",
+      "Bash(cd \"D:/alish-hackathon-0\" && uv sync 2>&1)",
+      "Bash(python:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "ai-employee"
+  ]
+}

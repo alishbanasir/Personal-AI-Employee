@@ -1,0 +1,32 @@
+# Secrets — NEVER commit
+.env
+*.env
+*.key
+*.pem
+credentials.json
+token.json
+gmail_credentials.json
+.gmail_token.json
+.gmail_send_token.json
+whatsapp_session/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.uv/
+dist/
+*.egg-info/
+
+# Vault folders with personal/sensitive data
+AI_Employee_Vault/Needs_Action/
+AI_Employee_Vault/Done/
+
+# Logs (optional — keep if you want audit history in git)
+# AI_Employee_Vault/Logs/
+
+# OS
+.DS_Store
+Thumbs.db

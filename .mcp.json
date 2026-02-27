@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "ai-employee": {
+      "command": "python",
+      "args": ["src/mcp_server.py"],
+      "env": {
+        "VAULT_PATH": "D:\\alish-hackathon-0\\AI_Employee_Vault"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2026-02-23T20:45:03.941425",
+    "actor": "social_media_manager",
+    "action_type": "linkedin_post_failed",
+    "file": "linkedin_post_20260223_ai_employee_hackathon0.md",
+    "status": "failed"
+  },
+  {
+    "timestamp": "2026-02-23T21:02:51.573725",
+    "actor": "social_media_manager",
+    "action_type": "linkedin_post_published",
+    "file": "linkedin_post_20260223_ai_employee_hackathon0.md",
+    "char_count": 1152,
+    "status": "success"
+  },
+  {
+    "timestamp": "2026-02-23T21:05:39.319778",
+    "actor": "social_media_manager",
+    "action_type": "linkedin_post_failed",
+    "file": "linkedin_post_20260223_ai_employee_hackathon0.md",
+    "status": "failed"
+  },
+  {
+    "timestamp": "2026-02-23T21:28:40.163135",
+    "actor": "social_media_manager",
+    "action_type": "linkedin_post_failed",
+    "file": "linkedin_post_20260223_ai_employee_hackathon0.md",
+    "status": "failed"
+  },
+  {
+    "timestamp": "2026-02-23T21:43:10.928444",
+    "actor": "social_media_manager",
+    "action_type": "linkedin_post_failed",
+    "file": "linkedin_post_20260223_ai_employee_hackathon0.md",
+    "status": "failed"
+  }
+]

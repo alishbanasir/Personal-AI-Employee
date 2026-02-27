@@ -1,0 +1,12 @@
+2026-02-25 03:10:09,438 [SocialMediaManager] INFO: Using LinkedIn REST API poster.
+2026-02-25 03:10:09,441 [SocialMediaManager] INFO: Watching /Approved for LinkedIn posts. Press Ctrl+C to stop.
+2026-02-25 03:12:42,055 [SocialMediaManager] INFO: New file in /Approved: APPROVAL_20260220_invoice_client_a.md
+2026-02-25 03:12:42,557 [SocialMediaManager] INFO: APPROVAL_20260220_invoice_client_a.md is not a social-post approval — skipping.
+2026-02-25 03:20:17,772 [SocialMediaManager] INFO: New file in /Approved: linkedin_post_test.md
+2026-02-25 03:20:18,295 [SocialMediaManager] INFO: Executing approved post: linkedin_post_test.md
+2026-02-25 03:20:18,295 [SocialMediaManager] INFO: Preview: \U0001f680 Just built my Personal AI Employee in a weekend — and it actually works!
+
+Not a chatbot. Not just automation. A real a…
+2026-02-25 03:20:20,002 [SocialMediaManager] INFO: HTTP Request: POST https://api.linkedin.com/v2/ugcPosts "HTTP/1.1 201 Created"
+2026-02-25 03:20:20,003 [SocialMediaManager] INFO: LinkedIn post published successfully via API.
+2026-02-25 03:20:20,004 [SocialMediaManager] INFO: Moved to /Done: linkedin_post_test.md

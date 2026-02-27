@@ -1,0 +1,18 @@
+============================================================
+  LinkedIn Session Saver
+============================================================
+
+1. A browser window will open LinkedIn's login page.
+2. Log in manually (email, password, 2FA if needed).
+3. Once you see your feed, the session is saved automatically.
+
+Browser opened. Waiting for you to reach the feed...
+(You have 5 minutes)
+
+Timed out. Please run the script again and log in within 5 minutes.
+
+Press Enter to close the browser...Traceback (most recent call last):
+  File "D:\alish-hackathon-0\save_linkedin_session.py", line 54, in <module>
+    input("\nPress Enter to close the browser...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
