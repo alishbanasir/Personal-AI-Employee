@@ -1,4 +1,5 @@
 # Secrets — NEVER commit
+linkedin_login.log
 .env
 *.env
 *.key
