@@ -90,10 +90,10 @@ version: 0.1
 
 ## Quick Stats
 
-- **Inbox items:** 1
-- **Needs Action:** 3
+- **Inbox items:** 3
+- **Needs Action:** 49
 - **Done today:** 0
-- **Pending approval:** 3
+- **Pending approval:** 1
 
 ## Active Projects
 

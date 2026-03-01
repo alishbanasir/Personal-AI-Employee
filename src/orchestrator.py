@@ -36,6 +36,7 @@ class Orchestrator:
         self.dry_run = dry_run or DRY_RUN
         self.watcher_process = None
         self.gmail_process = None
+        self.twitter_process = None
 
         # Folder references
         self.inbox = self.vault / "Inbox"
@@ -87,6 +88,24 @@ class Orchestrator:
         else:
             logger.info("[DRY RUN] Would start Gmail watcher subprocess")
 
+    def start_twitter_poster(self):
+        """Launch twitter_poster.py as a subprocess (only if API keys are set)."""
+        if not os.getenv("TWITTER_API_KEY"):
+            logger.info("TWITTER_API_KEY not set — skipping Twitter Poster.")
+            return
+
+        script = Path(__file__).parent / "twitter_poster.py"
+        cmd = [sys.executable, str(script), "--vault", str(self.vault), "--watch"]
+        if self.dry_run:
+            cmd.append("--dry-run")
+
+        logger.info(f"Starting Twitter poster: {' '.join(cmd)}")
+        if not self.dry_run:
+            self.twitter_process = subprocess.Popen(cmd)
+            logger.info(f"Twitter poster PID: {self.twitter_process.pid}")
+        else:
+            logger.info("[DRY RUN] Would start Twitter poster subprocess")
+
     def check_watcher_health(self):
         """Restart watchers if they have crashed."""
         if self.watcher_process and self.watcher_process.poll() is not None:
@@ -95,6 +114,9 @@ class Orchestrator:
         if self.gmail_process and self.gmail_process.poll() is not None:
             logger.warning("Gmail watcher has stopped. Restarting...")
             self.start_gmail_watcher()
+        if self.twitter_process and self.twitter_process.poll() is not None:
+            logger.warning("Twitter poster has stopped. Restarting...")
+            self.start_twitter_poster()
 
     def get_pending_items(self) -> list[Path]:
         """Return all .md files in /Needs_Action (excluding .gitkeep)."""
@@ -165,6 +187,7 @@ class Orchestrator:
 
         self.start_file_watcher()
         self.start_gmail_watcher()
+        self.start_twitter_poster()
         self.log_action("orchestrator_start", {"vault": str(self.vault)})
 
         logger.info(f"Scanning every {scan_interval}s. Press Ctrl+C to stop.")
@@ -197,6 +220,9 @@ class Orchestrator:
             if self.gmail_process:
                 self.gmail_process.terminate()
                 self.gmail_process.wait()
+            if self.twitter_process:
+                self.twitter_process.terminate()
+                self.twitter_process.wait()
             self.log_action("orchestrator_stop", {})
             logger.info("Orchestrator stopped.")
 
