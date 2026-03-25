@@ -1,0 +1,1042 @@
+[
+  {
+    "timestamp": "2026-03-25T16:58:16.810977",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Abu_zar_Mshahi_I_want_to_connect.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:58:19.360438",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_AKUH_Clinical_Laboratories___Kidney_Lab_Screening_Packa.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:58:21.370575",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_AKUH_Comprehensive_Delivery_Packages_at_AKUH.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:58:23.734046",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_AKUH_Comprehensive_Kidney_Care_Services_at_AKUH.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:58:25.854046",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_AKUH_Do_Not_let_Glaucoma_Take_Away_Your_Vision.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:58:27.946752",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Ali_Mustafa_I_want_to_connect.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:58:30.053497",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Ali_Mustafa_via_LinkedIn_Ali_just_messaged_you.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:58:32.311115",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Ant_at_Supabase_Supa_Update_March_2026.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:58:34.475273",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_ant_wilson_supabase_com_Your_Supabase_Project_alishbanasir_dashboard_is_go.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:58:36.608830",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Bill_Gates_via_LinkedIn_A_phone_call_that_saves_lives.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:58:38.659024",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_foodpanda_First_order__Get_50__off.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:58:40.402434",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_GenAI_Works_via_LinkedIn_Anthropic_Just_Doubled_Claude_s_Usage_Limits_for_E.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:58:42.666027",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_GenAI_Works_via_LinkedIn_Google_Maps_Just_Became_a_Gemini-Powered_Travel_As.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:58:44.837938",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_GenAI_Works_via_LinkedIn_Mira_Murati_s_Thinking_Machines_Inks_Massive_NVIDI.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:58:46.542530",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_GenAI_Works_via_LinkedIn_OpenAI_Finally_Drops_GPT-5_4__Watch_AI_Use_Your_Co.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:58:48.294477",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Hammad_Jamil_I_want_to_connect.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:58:50.462539",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_HIRA_NOOR_I_want_to_connect.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:58:52.066203",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Huzaifah_Rehman_I_want_to_connect.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:58:54.326124",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Instagram_alishbanasir69__catch_up_on_moments_you_ve_missed.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:58:56.494023",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Instagram_alishbanasir69__see_beauty_mart49__fashion_dressin.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:58:58.644166",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Instagram_alishbanasir69__see_what_s_been_happening_on_Insta.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:59:01.688129",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Instagram_From_alishbanasirali__1_unread_message.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:59:05.493712",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Jawad_Salman_I_want_to_connect.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:59:09.048690",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_LinkedIn_Alishba__last_week_your_posts_reached_15_people.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:59:12.461513",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_LinkedIn_Alishba__your_posts_got_9_impressions_last_week.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:59:15.625622",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_LinkedIn_Job_Alerts_developer___Avanza_Solutions_-_C_Developer_and_mo.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:59:18.976132",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_LinkedIn_Job_Alerts_developer___BGB_Group_-_BI_Developer_and_more.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:59:22.386702",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_LinkedIn_Job_Alerts_developer___Contour_Software_-_Full_Stack_Develop.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:59:25.758924",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_LinkedIn_Job_Alerts_developer___DET_Industries_-_Senior_Frontend_Soft.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:59:28.349011",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_LinkedIn_Job_Alerts_developer___Digital_Auxilius_-_CMS_Developer__Web.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:59:31.610607",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_LinkedIn_Job_Alerts_developer___ibex_-_Full_Stack_Developer_and_more.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:59:33.834679",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_LinkedIn_Job_Alerts_developer___JBS_Global_-_Jaffer_Business_Systems.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:59:36.241256",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_LinkedIn_Job_Alerts_developer___Kurli_-_Intermediate_Product_Engineer.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:59:38.636656",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_LinkedIn_Job_Alerts_developer___Pakistan_Single_Window__PSW__-_Analys.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:59:41.134299",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_LinkedIn_Job_Alerts_developer___PARCO_-_Pak-Arab_Refinery_Limited_-_B.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:59:43.435020",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_LinkedIn_Job_Alerts_developer___Systems_Limited_-_Senior_Frontend_Dev.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:59:45.705479",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_LinkedIn_Job_Alerts_developer___VentureDive_-_Web_Intern_and_more.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:59:48.893358",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Mah_jabeen_You_have_an_invitation.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:59:52.097846",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Make_GPT-5_4_is_here____Faster__smarter__and_built_for.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:59:55.053677",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Make_If-Else___Merge__new_AI_models__Agent_templates.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T16:59:58.422093",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Maqsood_Ali_I_want_to_connect.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:00:01.318460",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Memona_Hashim_You_have_an_invitation.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:00:04.260312",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Misbah_Fazal_CIT_Expert_You_have_an_invitation.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:00:07.227189",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Mohammad_Danish_You_have_an_invitation.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:00:10.187850",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Mubeen_Irshad_You_have_an_invitation.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:00:13.269684",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Muhammad_AbuBakar_via_LinkedIn_Muhammad_just_messaged_you.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:00:16.314916",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Muhammad_AbuBakar_You_have_an_invitation.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:00:19.733515",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Muhammad_Faizan_You_have_an_invitation.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:00:21.969443",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Muhammad_Hanzala_I_want_to_connect.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:00:24.260632",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_MUHAMMAD_HASAAN_You_have_an_invitation.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:00:27.211349",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Muhammad_Saleem_I_want_to_connect.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:00:29.685556",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Muhammad_Saleem_You_have_an_invitation.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:00:32.845274",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Muhammad_Shuja_You_have_an_invitation.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:00:35.925551",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Muhammad_Ubaid_Raza_You_have_an_invitation.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:00:39.079874",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Muhammad_Umair_Shad_I_want_to_connect.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:00:41.790422",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Namecheap_It_s_a_premium_domain_mega_sale.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:00:44.401349",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Namecheap_Up_to_97__off_for_every_solopreneur_chasing_a_drea.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:00:47.349849",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Quincy_Larson_Learn_AI_infrastructure_and_pass_the_NVIDIA_certif.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:00:50.683392",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Quincy_Larson_Learn_how_to_code_your_own_CI_CD_pipeline__Free_17.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:00:53.732716",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Scents_N_Stories_Aap_ki_kahaani_adhuri_kyun_hai.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:00:56.497176",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Shahzeb_Nasir_I_want_to_connect.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:00:59.691602",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Shahzeb_Nasir_via_LinkedIn_Shahzeb_just_messaged_you.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:01:02.938416",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Sultan_Channa_You_have_an_invitation.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:01:06.010572",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Supabase_Add_social_logins_in_minutes.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:01:09.214617",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Supabase_Have_you_tried_Supabase_Auth.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:01:11.718259",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Supabase_Lock_down_your_data_with_Supabase_Auth.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:01:14.699090",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Syed_Mohammad_Ali_Nasir_Azeemi_You_have_an_invitation.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:01:17.782008",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Tayyabaa_Batool_I_want_to_connect.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:01:20.870950",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Team_ImagineArt_Alishba__Tell_us_what_you_re_trying_to_create.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:01:24.142027",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Team_ImagineArt_Alishba__We_noticed_you_haven_t_been_creating_late.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:01:27.226618",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Team_Unstop_Build_AI_Solutions__Interview_with_Grab__Win__5L.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:01:30.371928",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Team_Unstop_Final_Few_hours_left_to_submit_your_reel_for_the_P.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:01:33.875691",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Team_Unstop_Last_Chance__Free_Access_to_NVIDIA_GTC_Ends_Today.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:01:36.952575",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_The_DataCamp_Team_Time_is_running_out__Get_50__Off_Data_and_AI_Skill.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:01:40.109024",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Tooba_Fazal_You_have_an_invitation.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:01:42.782418",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Udemy_Alishba__become_an_AI-ready_leader.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:01:45.851459",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Udemy_Alishba__go_beyond_limits_with_26_000__courses.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:01:48.313755",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Udemy_A_full_year_of_career_growth__Save_with_a_Udemy_Pe.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:01:49.935046",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Udemy_Instructor__Khadin_Akbar_AI_can_get_clients_for_you_now.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:01:52.197898",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Udemy_Instructor__Learnify_IT_Python_Automation_Masterclass_With_Excel_and_Canva.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:01:54.455201",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Udemy_Instructor__Metla_Sudha_Build_in-demand_skills_by_hands-on.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:01:56.291954",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Udemy_Instructor__Metla_Sudha_Skills_to_transform_your_career_and_life_-_practic.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:01:58.645834",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Udemy_Instructor__OCSALY_Acade_How_ECU_Actually_Hack_Raw_Data_to_DBC_Signal_Map.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:02:01.002171",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Udemy_Instructor__OCSALY_Acade_New_2026_March_Best_Skills__Master_Car_Hacking_No.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:02:02.562532",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Udemy_Instructor__Pawe\u0142_Krakow_Just_Launched__NVIDIA___AWS_Exam_Prep___Now__9_99.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:02:11.255112",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Udemy_Instructor__PROPER_DOT_I_properdotinstitute_gmail_com.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:02:13.693045",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Udemy_Instructor__Sayman_Creat_Buy_1_Get_4_-_Advanced_CapCut_Graphic_and_Video_Ed.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:02:16.362915",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Udemy_Instructor__Zechariah_Te_Buy_1_Learn_6_Adobe_Tools_-_Graphic_and_Video_Edit.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:02:18.378029",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Udemy_Sale_ending__Grow_your_leadership_in_the_AI_era.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:02:20.172983",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "Email_Usama_Saleem_You_have_an_invitation.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:02:22.891161",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "LinkedIn_Asad_Ali_and_2_other_people_vi_202844.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:02:26.121743",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "LinkedIn_Follow_Getz_Pharma_to_see_open_181248.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:02:28.332648",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "LinkedIn_Follow_Getz_Pharma_to_see_open_202844.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:02:30.473594",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "LinkedIn_New_from_GenAI_Works_in_The_At_181248.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:02:32.035441",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "LinkedIn_New_from_GenAI_Works_in_The_At_202844.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:02:34.066391",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "LinkedIn_Profile_image_for_several_comp_181248.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:02:36.218328",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "LinkedIn_Status_is_online_181248.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:02:38.207482",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "LinkedIn_Status_is_reachable_181248.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:02:40.275003",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "LinkedIn_Status_is_reachable_202844.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:02:42.377918",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "LinkedIn_Unread_notification_181248.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:02:44.705852",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "LinkedIn_Unread_notification_202844.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:02:47.890983",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "LinkedIn_WordPress_Development_Intern_a_202844.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:02:50.858220",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "LinkedIn_Your_posts_got_13_impressions_181248.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-25T17:02:54.051235",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "LinkedIn_Your_posts_got_13_impressions_202844.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
+  }
+]
