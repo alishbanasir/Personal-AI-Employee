@@ -1,9 +1,9 @@
 ---
-source_file: LinkedIn_New_from_GenAI_Works_in_The_At_202844.md
+source_file: LinkedIn_Your_posts_got_13_impressions_202844.md
 priority: medium
 category: other
 needs_response: false
-analyzed_at: 2026-03-25T17:02:32.015105
+analyzed_at: 2026-03-26T16:49:33.911461
 status: analyzed
 ---
 
@@ -17,6 +17,7 @@ status: analyzed
 ## Original Content
 
 ## Content
-New from GenAI Works in The Atlas: Musk wants to build 50x the world's compute. In space.
+Your posts got 13 impressions last week. View your analytics.
+Your posts got 13 impressions last week. View your analytics.
 
-22h
+9h

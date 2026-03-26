@@ -14,9 +14,14 @@ import logging
 import os
 import re
 import sys
+import time
 from datetime import datetime
 from pathlib import Path
 from typing import Optional
+
+# Delay between files to stay under Gemini free-tier RPM limit
+FILE_PROCESSING_DELAY = 5   # seconds
+RATE_LIMIT_WAIT       = 60  # seconds to wait on 429
 
 logging.basicConfig(
     level=logging.INFO,
@@ -94,12 +99,41 @@ def _call_gemini(prompt: str, system: str) -> str:
     from google import genai
     from google.genai import types
     client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
-    response = client.models.generate_content(
-        model="gemini-2.0-flash",
-        contents=prompt,
-        config=types.GenerateContentConfig(system_instruction=system),
-    )
-    return response.text
+    max_retries = 3
+    retries = 0
+    while True:
+        try:
+            response = client.models.generate_content(
+                model="gemini-2.0-flash",
+                contents=prompt,
+                config=types.GenerateContentConfig(system_instruction=system),
+            )
+            return response.text
+        except Exception as e:
+            err = str(e)
+            if "429" in err or "RESOURCE_EXHAUSTED" in err:
+                # Daily quota exhausted — no point retrying until tomorrow
+                if "PerDay" in err or "per_day" in err.lower() or "limit: 0" in err:
+                    raise RuntimeError(
+                        "Gemini daily quota exhausted. "
+                        "Set LLM_PROVIDER=claude in .env to use Claude instead, "
+                        "or wait until tomorrow for the free tier to reset."
+                    ) from e
+                retries += 1
+                if retries > max_retries:
+                    raise RuntimeError(
+                        f"Gemini rate limit persisted after {max_retries} retries. "
+                        "Consider switching LLM_PROVIDER=claude in .env."
+                    ) from e
+                logger.warning(
+                    f"Gemini rate limit hit (429). "
+                    f"Waiting {RATE_LIMIT_WAIT}s for quota reset... "
+                    f"(attempt {retries}/{max_retries})"
+                )
+                time.sleep(RATE_LIMIT_WAIT)
+                logger.info("Retrying after quota wait...")
+            else:
+                raise
 
 
 def _call_llm(prompt: str, system: str) -> str:
@@ -182,6 +216,26 @@ class Analyzer:
         for d in [self.plans, self.done, self.pending_approval, self.briefings, self.logs_dir]:
             d.mkdir(parents=True, exist_ok=True)
 
+        self._cleanup_failed_plans()
+
+    # ── Startup Cleanup ───────────────────────────────────────────────────────
+
+    def _cleanup_failed_plans(self):
+        """Delete plans that were generated during failed/incomplete runs."""
+        JUNK_MARKERS = ("Auto-classification failed", "manual review needed")
+        removed = 0
+        for plan in self.plans.glob("PLAN_*.md"):
+            try:
+                text = plan.read_text(encoding="utf-8")
+                if any(marker in text for marker in JUNK_MARKERS):
+                    plan.unlink()
+                    removed += 1
+                    logger.debug(f"  Removed failed plan: {plan.name}")
+            except Exception:
+                pass
+        if removed:
+            logger.info(f"Cleanup: removed {removed} failed plan(s) from /Plans.")
+
     # ── Logging ───────────────────────────────────────────────────────────────
 
     def _log(self, action: str, details: dict):
@@ -201,7 +255,11 @@ class Analyzer:
 
     def _write_plan(self, source: Path, body: str, cls: dict, draft: Optional[str]) -> Path:
         now = datetime.now()
-        plan_path = self.plans / f"PLAN_{source.stem}_{now.strftime('%H%M%S')}.md"
+        # Delete any previous plan for this same source file (successful overwrite)
+        for old in self.plans.glob(f"PLAN_{source.stem}_*.md"):
+            old.unlink()
+            logger.debug(f"  Replaced old plan: {old.name}")
+        plan_path = self.plans / f"PLAN_{source.stem}_{now.strftime('%Y%m%d_%H%M%S')}.md"
         lines = [
             "---",
             f"source_file: {source.name}",
@@ -297,6 +355,10 @@ status: pending_approval
             # Move original: low/medium (no response) → Done; high → stays in Needs_Action
             if priority == "low" or (priority != "high" and not cls.get("needs_response")):
                 dest = self.done / file_path.name
+                if dest.exists():
+                    # File already in Done (duplicate run) — overwrite it
+                    dest.unlink()
+                    logger.debug(f"  Removed existing Done copy: {dest.name}")
                 file_path.rename(dest)
                 logger.info(f"  Moved to Done.")
 
@@ -326,12 +388,16 @@ status: pending_approval
         logger.info(f"Processing {len(files)} item(s)...")
         counts = {"high": 0, "medium": 0, "low": 0}
 
-        for f in files:
+        for i, f in enumerate(files):
             try:
                 p = self.process_file(f)
                 counts[p] = counts.get(p, 0) + 1
             except Exception as e:
                 logger.error(f"Error processing {f.name}: {e}")
+            # Rate-limit buffer between files (skip delay after last file)
+            if i < len(files) - 1:
+                logger.debug(f"  Waiting {FILE_PROCESSING_DELAY}s before next file...")
+                time.sleep(FILE_PROCESSING_DELAY)
 
         counts["total"] = len(files)
         logger.info(f"Complete — High: {counts['high']} | Medium: {counts['medium']} | Low: {counts['low']}")

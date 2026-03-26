@@ -1,9 +1,9 @@
 ---
-source_file: LinkedIn_Follow_Getz_Pharma_to_see_open_202844.md
+source_file: LinkedIn_Your_posts_got_13_impressions_181248.md
 priority: medium
 category: other
 needs_response: false
-analyzed_at: 2026-03-25T17:02:28.326632
+analyzed_at: 2026-03-26T16:49:26.928031
 status: analyzed
 ---
 
@@ -17,6 +17,7 @@ status: analyzed
 ## Original Content
 
 ## Content
-Follow Getz Pharma to see open roles and company insights.
+Your posts got 13 impressions last week. View your analytics.
+Your posts got 13 impressions last week. View your analytics.
 
-10h
+7h
