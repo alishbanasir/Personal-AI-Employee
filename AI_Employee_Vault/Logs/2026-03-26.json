@@ -2928,5 +2928,15 @@
     "category": "other",
     "draft_created": false,
     "dry_run": false
+  },
+  {
+    "timestamp": "2026-03-26T17:56:22.871365",
+    "actor": "analyzer",
+    "action": "analyzed",
+    "file": "linkedin_post_test.md",
+    "priority": "medium",
+    "category": "other",
+    "draft_created": false,
+    "dry_run": false
   }
 ]
